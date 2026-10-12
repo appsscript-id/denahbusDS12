@@ -9,7 +9,7 @@
 <link rel="icon" href="logo.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Source+Sans+3:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Atkinson+Hyperlegible:wght@400;700&display=swap" rel="stylesheet">
 <style>
 :root{
   color-scheme:light;
@@ -292,6 +292,53 @@ footer.foot{text-align:center;font-size:14px;font-weight:600;color:var(--muted);
   .card{box-shadow:none;border:1px solid #ccc}
   .plist{max-height:none}
 }
+</style>
+<style id="tema">
+/* TEMA: Biru Terang */
+:root{--page:#f4f8fc;--card:#ffffff;--soft:#eaf1f8;--text:#12263f;--muted:#5a6b80;--line:#dbe6f0;--line2:#b7c9db;--primary:#0b5cad;--primary-soft:#e3effb;--danger:#c62b3a;--gold:#0a9aa6;--gold-soft:#dff4f5;--burg:#b4234a;--gold-tx:#064e55;--lk:#0b5cad;--lk-soft:#e3effb;--lk-tx:#0a3f78;--pr:#c2255c;--pr-soft:#fde7ef;--pr-tx:#7d1238;--hd-bg:#ffffff;--hd-tx:#12263f;--hd-sub:#0b5cad;--hd-tag:#5a6b80;--hd-line:rgba(10,154,166,.35);--hd-btn:#0b5cad;--hd-bd:#cfe0f0;--on-acc:#ffffff;--sr-bg:#f4f8fc;--sr-bd:#b7c9db;--bus-bg:#f1f7fc;--dash:#b7d3ea;--back-tx:#5b87ad;--empty-bd:#b7d3ea;--empty-tx:#7a9bb8;--fd:'Poppins',system-ui,sans-serif;--fb:'Atkinson Hyperlegible',system-ui,sans-serif}
+body{font-family:var(--fb)}
+.ex-root,.pill,.tab small{font-family:var(--fb)}
+h1,h2,h3,h4,.display,.tab,.aisle,.back,.stat-big b,.stats b,.info-card .seat-big,.ex-bname{font-family:var(--fd)}
+.top{background:var(--hd-bg);color:var(--hd-tx);border-color:var(--hd-bd)}
+.top::after{border-color:var(--hd-line)}
+.titles h1{color:var(--hd-tx)}
+.titles p{color:var(--hd-sub)}
+.titles p.tagline{color:var(--hd-tag)}
+.logo{border-color:var(--gold);background:#fff}
+.search input{background:var(--sr-bg);border-color:var(--sr-bd);color:var(--text)}
+.top .btn.ghost{border-color:var(--hd-btn);color:var(--hd-btn);background:transparent}
+.top .btn.tint{background:var(--gold);color:var(--on-acc);border-color:var(--gold)}
+.btn.tint{background:var(--gold-soft);color:var(--gold-tx)}
+.btn.ghost,.tab,.admin-bar,.sheet{background:var(--card)}
+.sheet{border-top-color:var(--gold)}
+.tab.active small{color:var(--hd-sub)}
+.pill,.seg input:checked + span{color:var(--gold-tx)}
+.bus{background:var(--bus-bg);border-color:var(--gold);box-shadow:inset 0 0 0 4px var(--card),0 16px 26px -18px rgba(0,0,0,.45)}
+.bus::before,.bus::after{background:var(--primary)}
+.front,.back{border-color:var(--dash)}
+.driver{border-color:var(--dash)}
+.door{color:var(--gold-tx);border-color:var(--gold)}
+.doorseat{color:var(--gold-tx);border-color:var(--gold)}
+.back{color:var(--back-tx)}
+.seat.lk{background:var(--lk-soft);border-color:var(--lk);color:var(--lk-tx);--acc:var(--lk)}
+.seat.pr{background:var(--pr-soft);border-color:var(--pr);color:var(--pr-tx);--acc:var(--pr)}
+.seat.nj{background:var(--gold-soft);border-color:var(--gold);color:var(--gold-tx);--acc:var(--gold)}
+.seat.empty{border-color:var(--empty-bd);color:var(--empty-tx)}
+.admin .seat.empty:hover{border-color:var(--burg);color:var(--burg);background:var(--pr-soft)}
+.legend .l-lk{background:var(--lk-soft);border-color:var(--lk)}
+.legend .l-pr{background:var(--pr-soft);border-color:var(--pr)}
+.stats .s-lk{background:var(--lk-soft);color:var(--lk-tx)}
+.stats .s-pr{background:var(--pr-soft);color:var(--pr-tx)}
+.badge{border-color:var(--lk);background:var(--lk-soft);color:var(--lk-tx)}
+.badge.pr{border-color:var(--pr);background:var(--pr-soft);color:var(--pr-tx)}
+.badge.nj{border-color:var(--gold);background:var(--gold-soft);color:var(--gold-tx)}
+.info-card .seat-big{border-color:var(--lk);background:var(--lk-soft);color:var(--lk-tx)}
+.info-card .seat-big.pr{border-color:var(--pr);background:var(--pr-soft);color:var(--pr-tx)}
+.info-card .seat-big.nj{border-color:var(--gold);background:var(--gold-soft);color:var(--gold-tx)}
+.ex-head{border-bottom-color:var(--gold)}
+.ex-logo{border-color:var(--gold)}
+@media (max-width:520px){.seat.empty .name{font-size:11px}}
+.top{border:2px solid #cfe0f0}.top .btn.ghost:hover{background:rgba(11,92,173,.08);color:#08427d;border-color:#08427d}.titles p{text-transform:none;letter-spacing:.01em;font-weight:700}.tab.active small{color:#d6eaff}.btn,.tab,.seat,.card{border-radius:14px}.btn{border-radius:12px}
 </style>
 </head>
 <body>
