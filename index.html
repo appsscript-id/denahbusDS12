@@ -4,15 +4,18 @@
 <base target="_top">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="color-scheme" content="light">
+<meta name="color-scheme" content="only light">
+<meta name="supported-color-schemes" content="light">
+<meta name="theme-color" content="#ffffff">
 <title>Denah Bus Wisata Hati Griya Lansia - Malang</title>
 <link rel="icon" href="logo.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Atkinson+Hyperlegible:wght@400;700&display=swap" rel="stylesheet">
 <style>
+html{background:#f4f8fc;color-scheme:only light}
 :root{
-  color-scheme:light;
+  color-scheme:only light;
   --page:#f8f3e8; --card:#fffdf8; --soft:#f4ecdb; --text:#1f2a44; --muted:#6b6a78; --line:#e6dcc3; --line2:#cdbf9b;
   --primary:#1f2a44; --primary-soft:#e6ebf5; --danger:#9b2335;
   --gold:#b8893b; --gold-soft:#f3e7cf; --burg:#7a1f33;
@@ -339,6 +342,8 @@ h1,h2,h3,h4,.display,.tab,.aisle,.back,.stat-big b,.stats b,.info-card .seat-big
 .ex-logo{border-color:var(--gold)}
 @media (max-width:520px){.seat.empty .name{font-size:11px}}
 .top{border:2px solid #cfe0f0}.top .btn.ghost:hover{background:rgba(11,92,173,.08);color:#08427d;border-color:#08427d}.titles p{text-transform:none;letter-spacing:.01em;font-weight:700}.tab.active small{color:#d6eaff}.btn,.tab,.seat,.card{border-radius:14px}.btn{border-radius:12px}
+@media (prefers-color-scheme:dark){html,:root{color-scheme:only light;background:#f4f8fc}body{background:var(--page);color:var(--text)}}
+input,select,button,textarea{color-scheme:only light}
 </style>
 </head>
 <body>
